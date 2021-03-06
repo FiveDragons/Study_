@@ -309,9 +309,10 @@ for i in range(1, star+1):
 
 # 풀이[1]
 
-N, X = map(int, input().split())
-A = list(map(int,input().split()))
+A = []
+N, X = map(int, input().split())   # 첫째 줄 => 정수 N과 정수 X를 먼저 input한다.
+A = list(map(int,input().split())) # 둘째 줄 => list와 input을 활용하여 수열을 할 수 있게 만든다.
 
-for i in range(N):
-    if A[i] < X:
-        print(A[i], end=' ')
+for i in range(N):                 # N만큼 for문을 돌린다.
+    if A[i] < X:                   # 수열 A[i] (A list의 i index)의 크기가 X보다 작다면
+        print(A[i], end=' ')       # A list의 i inext를 end=' ' 를 적용시켜 print 하여라
