@@ -309,7 +309,6 @@ for i in range(1, star+1):
 
 # 풀이[1]
 
-A = []
 N, X = map(int, input().split())
 A = list(map(int,input().split()))
 
