@@ -71,11 +71,11 @@ if option == '-a':     # 쓰기모드
     f = open('memo.txt', 'a')
     f.write('\n')
     f.close()
-# elif option == '-v':   # 읽기모드
-#     f = open('memo.txt')
-#     memo = f.read()
-#     f.close()
-#     print(memo)
+elif option == '-v':   # 읽기모드
+    f = open('memo.txt')
+    memo = f.read()
+    f.close()
+    print(memo)
 '''
 
 '''
@@ -97,7 +97,7 @@ f.write(space_content)
 f.close()
 '''
 
-
+'''
 # [6] 하위 디렉터리 검색하기
 # 특정 디렉터리부터 시작해서 그 하위 모든 파일중 파이썬 파일(*.py)만 
 # 출력해 주는 프로그램을 만들려면 어떻게 해야 할까?
@@ -118,4 +118,4 @@ def search(dirname):
         pass
 
 search("C:/")
-
+'''
