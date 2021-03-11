@@ -49,3 +49,14 @@ print(lotto)
 import webbrowser
 webbrowser.open("http://google.com") # 구글 웹브라우저를 열어라
 '''
+
+'''
+# os :  Operating System의 약자로서 운영체제에서 제공되는 여러 기능을 파이썬에서 수행할 수 있게 해줍니다.
+import os
+
+print(os.getcwd()) # 현재 주소 출력
+
+print(os.listdir()) # os.listdir를 사용하면 해당 디렉터리에 있는 파일들의 리스트를 구할 수 있고, 보통 py의 파일, txt을 따로 구분할 경우 사용함
+
+# https://wikidocs.net/3141 참고
+'''
