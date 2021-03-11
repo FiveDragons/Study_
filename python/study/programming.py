@@ -17,7 +17,7 @@ print(GuGu(5))
 '''
 '''
 # while문 활용
-def GuGu(n):
+def GuGu(n): 
     result = []
     i = 1
     while i < 10:
